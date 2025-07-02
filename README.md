@@ -10,15 +10,13 @@ This project is a web-based inventory management system built with Next.js, desi
 - **MySQL**: Database for storing user, product, and group data.
 - **mysql2/promise**: MySQL client for Node.js with promise-based API.
 - **jsonwebtoken (JWT)**: For secure user authentication via tokens.
-- **bcrypt**: For password hashing and verification.
+- **bcryptjs**: For password hashing and verification.
 - **React Bootstrap**: For responsive and styled UI components.
 - **Chart.js & react-chartjs-2**: For visualizing data with bar and pie charts.
 - **Next-Intl**: For internationalization (i18n) with English and Russian support.
 - **date-fns**: For date formatting and localization.
 - **Heroicons**: For SVG icons used in the UI.
-- **Tailwind CSS**: For styling (referenced via custom variables like `--primary-green`).
 - **Aiven MySQL**: Hosted MySQL database with SSL configuration.
-- **ESLint & Prettier**: For code linting and formatting.
 
 ## Project Structure
 
