@@ -1,0 +1,149 @@
+{
+  "header": {
+    "today": "Today",
+    "searchPlaceholder": "Search",
+    "language": "Language",
+    "switchTo": "Switch to"
+  },
+  "inventoryDetails": {
+    "emptyState": "Select an item from the list to view details",
+    "detailsTitle": "Inventory Details #{id}",
+    "addProduct": "Add Product",
+    "deleteProduct": "Delete Product",
+    "confirmDelete": "Are you sure you want to delete {name} with serial number {serial}?",
+    "confirmDeleteName": "{name}",
+    "confirmDeleteSerial": "{serial}",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "statusFree": "Free",
+    "statusInUse": "In Use",
+    "statusReserved": "Reserved",
+    "productLabel": "Label"
+  },
+  "users": {
+    "title": "Users",
+    "modalTitle": "Confirm Deletion",
+    "modalConfirm": "Are you sure you want to delete {name}?",
+    "roles": {
+      "buyer": "Buyer"
+
+    },
+    "names": {
+      "ivan": "Ivan",
+      "olga": "Olga",
+      "sergey": "Sergey"
+    },
+    "lastnames": {
+      "ivanov": "Ivanov",
+      "petrova": "Petrova",
+      "smirnov": "Smirnov"
+    },
+    "empty": "No users match your search.",
+    "deleteTitle": "Delete User",
+    "deleteConfirm": "Are you sure you want to delete {name}?",
+    "cancel": "Cancel",
+    "delete": "Delete"
+  },
+  "settings": {
+    "profileSettings": "Profile Settings",
+    "name": "Name",
+    "email": "Email",
+    "newPassword": "New Password",
+    "saveChanges": "Save Changes",
+    "confirmChangesTitle": "Confirm Changes",
+    "confirmChangesMessage": "Are you sure you want to save profile changes?",
+    "passwordWillChange": "(will be changed)",
+    "cancel": "Cancel",
+    "save": "Save"
+  },
+  "inventoryList": {
+    "title": "Arrivals / {count}",
+    "labelProducts": "Products",
+    "labelItems": "Items",
+    "labelUnits": "Units",
+    "labelElements": "Elements",
+    "statusCompleted": "Completed",
+    "statusPending": "Pending",
+    "productsPlural": "{count, plural, one {# Product} other {# Products}}",
+     "titleLongShort": "Long Short Arrival Title",
+    "titleLongVeryLong" : "Very Long Arrival Title",
+    "titleLong": "Long Arrival Title",
+     "noValue": "-"
+  },
+  "sidebar": {
+    "inventory": "INVENTORY",
+    "arrivals": "ARRIVALS",
+    "groups": "GROUPS",
+    "products": "PRODUCTS",
+    "users": "USERS",
+    "settings": "SETTINGS",
+    "admin": "Admin",
+    "adminEmail": "admin@company.com",
+    "logoutRequest": "Sending logout request",
+    "logoutResponse": "Response from /api/auth/logout: {status}",
+    "logoutData": "Response data: {data}",
+    "logoutError": "Error during logout",
+    "logoutRedirect": "Redirecting to /login"
+  },
+  "products": {
+    "title": "Products",
+    "statusFree": "Free",
+    "statusInUse": "In Use",
+    "deleteTitle": "Delete Product",
+    "deleteConfirm": "Are you sure you want to delete {name} with serial number {serial}?",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "empty": "No products match your search.",
+    "modalTitle": "Confirm Deletion",
+    "modalConfirm": "Are you sure you want to delete {name}?",
+    "serialLabel": "Serial Number",
+     "statusLabel": "Status"
+  },
+  
+  "groups": {
+    "titleLongVeryLong": "Very Long Arrival Title",
+    "titleLong": "Long Arrival Title",
+    "titleLongShort": "Long Short Arrival Title",
+    "productsPlural": "{count, plural, one {# Product} other {# Products}}",
+    "dateCode": "{code}",
+    "dateText": "{day} / {monthAbbr} {year}",
+    "usd": "{value} $",
+    "uah": "{value} UAH",
+    "noValue": "-",
+    "monthAbbr": {
+      "Jan": "Jan",
+      "Feb": "Feb",
+      "Mar": "Mar",
+      "Apr": "Apr",
+      "May": "May",
+      "Jun": "Jun",
+      "Jul": "Jul",
+      "Aug": "Aug",
+      "Sep": "Sep",
+      "Oct": "Oct",
+      "Nov": "Nov",
+      "Dec": "Dec"
+    },
+    "deleteTitle": "Delete Group",
+    "modalTitle": "Confirm Deletion",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "modalConfirm": "Are you sure you want to delete {name}?",
+    "groupproducts": "Products by groups",
+    "productstatus": "Product status",
+    "barchartdata": "Products",
+    "statusFree": "Free",
+    "statusInUse": "In Use",
+    "statusReserved": "Reserved"
+  },
+
+  "login": {
+    "title": "Login",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Enter email",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter password",
+    "submitButton": "Sign In",
+    "errorDefault": "An error occurred"
+  }
+}

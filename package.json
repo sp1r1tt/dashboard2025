@@ -1,0 +1,41 @@
+{
+  "name": "dashboard2025",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
+    "@next/swc-wasm-nodejs": "13.5.1",
+    "@types/node": "20.6.2",
+    "@types/react": "18.2.22",
+    "@types/react-dom": "18.2.7",
+    "bcryptjs": "^3.0.2",
+    "bootstrap": "^5.3.2",
+    "chart.js": "^4.5.0",
+    "date-fns": "^4.1.0",
+    "eslint": "8.49.0",
+    "eslint-config-next": "13.5.1",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.1",
+    "next": "13.5.1",
+    "next-intl": "^4.3.1",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.9.1",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "18.2.0",
+    "recharts": "^3.0.0",
+    "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/js-cookie": "^3.0.6",
+    "@types/jsonwebtoken": "^9.0.10"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "header": {
+    "today": "Сегодня",
+    "searchPlaceholder": "Поиск",
+    "language": "Язык",
+    "switchTo": "Переключить на"
+  },
+  "inventoryDetails": {
+    "emptyState": "Выберите элемент из списка для просмотра деталей",
+    "detailsTitle": "Детали прихода #{id}",
+    "addProduct": "Добавить продукт",
+    "deleteProduct": "Удалить продукт",
+    "confirmDelete": "Вы уверены, что хотите удалить {name} с серийным номером {serial}?",
+    "confirmDeleteName": "{name}",
+    "confirmDeleteSerial": "{serial}",
+    "cancel": "Отмена",
+    "delete": "Удалить",
+    "statusFree": "Свободен",
+    "statusInUse": "В работе",
+    "statusReserved": "Зарезервированные"
+  },
+  "inventoryList": {
+    "title": "Приходы / {count}",
+    "labelProducts": "Продукта",
+    "labelItems": "Товара",
+    "labelUnits": "Единиц",
+    "labelElements": "Элементов",
+    "statusCompleted": "Завершено",
+    "statusPending": "В ожидании",
+      "titleLongVeryLong": "Длинное предлинное длиннючее название прихода",
+  "titleLong": "Длинное название прихода",
+  "titleLongShort": "Длинное краткое название прихода", 
+        "noValue": "-",
+              "productsPlural": "{count, plural, one {# Продукт} few {# Продукта} many {# Продуктов} other {# Продукта}}"
+  },
+  "sidebar": {
+    "inventory": "ИНВЕНТАРЬ",
+    "arrivals": "ПРИХОД",
+    "groups": "ГРУППЫ",
+    "products": "ПРОДУКТЫ",
+    "users": "ПОЛЬЗОВАТЕЛИ",
+    "settings": "НАСТРОЙКИ",
+    "admin": "Админ",
+    "adminEmail": "admin@company.com",
+    "logoutRequest": "Отправка запроса на выход",
+    "logoutResponse": "Ответ от /api/auth/logout: {status}",
+    "logoutData": "Данные ответа: {data}",
+    "logoutError": "Ошибка при выходе",
+    "logoutRedirect": "Перенаправление на /login"
+  },
+  "users": {
+    "title": "Пользователи",
+    "modalTitle": "Подтверждение удаления",
+    "modalConfirm": "Вы уверены, что хотите удалить {name}?",
+    "roles": {
+      "buyer": "Покупатель"
+    },
+    "names": {
+      "ivan": "Иван",
+      "olga": "Ольга",
+      "sergey": "Сергей"
+    },
+    "lastnames": {
+      "ivanov": "Иванов",
+      "petrova": "Петрова",
+      "smirnov": "Смирнов"
+    },
+    "empty": "Нет пользователей, соответствующих запросу.",
+    "deleteTitle": "Удалить пользователя",
+    "deleteConfirm": "Вы действительно хотите удалить {name}?",
+    "cancel": "Отмена",
+    "delete": "Удалить"
+  },
+  "settings": {
+    "profileSettings": "Настройки профиля",
+    "name": "Имя",
+    "email": "Email",
+    "newPassword": "Новый пароль",
+    "saveChanges": "Сохранить изменения",
+    "confirmChangesTitle": "Подтвердить изменения",
+    "confirmChangesMessage": "Вы уверены, что хотите сохранить изменения в профиле?",
+    "passwordWillChange": "(будет изменен)",
+    "cancel": "Отмена",
+    "save": "Сохранить"
+  },
+  "products": {
+    "title": "Продукты",
+    "statusFree": "Свободен",
+    "statusInUse": "В работе",
+    "serialLabel": "Серийный номер",
+  "statusLabel": "Статус",
+    "deleteTitle": "Удалить продукт",
+    "deleteConfirm": "Вы уверены, что хотите удалить {name} с серийным номером {serial}?",
+    "cancel": "Отмена",
+    "delete": "Удалить",
+    "empty": "Нет продуктов, соответствующих запросу."
+  },
+"groups": {
+  "titleLongVeryLong": "Длинное предлинное длиннючее название прихода",
+  "titleLong": "Длинное название прихода",
+  "titleLongShort": "Длинное краткое название прихода", 
+  "productsPlural": "{count, plural, one {# Продукт} few {# Продукта} many {# Продуктов} other {# Продукта}}",
+  "dateCode": "{code}",
+  "dateText": "{day} / {monthAbbr} {year}",
+  "usd": "{value} $",
+  "uah": "{value} грн",
+  "noValue": "-",
+  "monthAbbr": {
+    "Янв": "Янв",
+    "Фев": "Фев",
+    "Мар": "Мар",
+    "Апр": "Апр",
+    "Май": "Май",
+    "Июн": "Июн",
+    "Июл": "Июл",
+    "Авг": "Авг",
+    "Сен": "Сен",
+    "Окт": "Окт",
+    "Ноя": "Ноя",
+    "Дек": "Дек"
+  },
+  "deleteTitle": "Удалить группу",
+  "modalTitle": "Подтверждение удаления",
+  "cancel": "Отмена",
+  "delete": "Удалить",
+  "modalConfirm": "Вы уверены, что хотите удалить {name}?",
+  "groupproducts": "Продукты по группам",
+  "productstatus": "Статус продуктов",
+  "barchartdata": "Продукты",
+  "statusFree": "Свободен",
+  "statusInUse": "В работе",
+  "statusReserved": "Зарезервированные",
+  "title": "Приходы / {count}" 
+},
+"login": {
+    "title": "Вход",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Введите email",
+    "passwordLabel": "Пароль",
+    "passwordPlaceholder": "Введите пароль",
+    "submitButton": "Войти",
+    "errorDefault": "Произошла ошибка"
+  }
+}
